@@ -76,5 +76,25 @@ export const GlobalCss = createGlobalStyle`
       height: 100%
     }
   }
+
+  //Cards
+
+  .card:hover,
+  .card:focus-within {
+    transform: translatey(-1rem);
+
+    @media (max-width: ${breakpoints.tablet}){
+      transform: translatey(-4rem);
+    }
+  }
   
+  .card:hover ~ .card,
+  .card:focus-within ~ .card {
+  transform: translatex(4rem);
+
+    @media (max-width: ${breakpoints.tablet}){
+      transform: translatex(0);
+      transform: translatey(2rem);
+    }
+  }
 `
