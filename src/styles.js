@@ -71,6 +71,8 @@ export const GlobalCss = createGlobalStyle`
     width: 100vw;
 
     body{
+    overflow-x: hidden;
+
       height: 100%
     }
   }
