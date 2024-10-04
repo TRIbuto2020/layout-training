@@ -11,7 +11,7 @@ export const Container = styled.div`
   display: flex;
   width: 80vw;
   margin: 0 auto;
-  padding: 120px 0;
+  padding: 80px 0;
 
   @media (max-width: ${breakpoints.tablet}){
     flex-direction: column;

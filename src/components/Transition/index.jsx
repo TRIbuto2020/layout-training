@@ -2,7 +2,7 @@ import { Gradient } from "./styles"
 
 const Transition = () => {
   return (
-    <Gradient></Gradient>
+    <Gradient primary></Gradient>
   )
 }
 
